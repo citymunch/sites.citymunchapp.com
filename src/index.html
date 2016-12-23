@@ -17,8 +17,8 @@
 
             <p>
                 Terminology:<br />
-                Dev = development code and development database (i.e. fake data).<br />
-                UAT = user acceptance testing = development code and production database.<br />
+                Dev = development code and development database, for developers only.<br />
+                UAT = user acceptance testing = development code and production database, for product team to test.<br />
                 Prod = production = real-world data and the latest code we released to real users.
             </p>
 
@@ -27,7 +27,7 @@
                     <tr>
                         <th></th>
                         <th>Admin app</th>
-                        <th>Web app</th>
+                        <th>Web app<br />(merchant, partner, consumer)</th>
                         <th>Consumer mobile</th>
                         <th>Consumer mobile on web</th>
                         <th>API</th>
@@ -37,7 +37,7 @@
                     <tr>
                         <th>Dev</th>
                         <td><a href="https://dev-admin.citymunchapp.com">Click</a></td>
-                        <td><a href="https://dev-app.citymunchapp.com">Click</a></td>
+                        <td><a href="https://dev-web.citymunchapp.com">Click</a></td>
                         <td rowspan="2">
                             <a href="https://rink.hockeyapp.net/manage/apps/374970">Android</a>
                             /
@@ -51,7 +51,7 @@
                     <tr>
                         <th>UAT</th>
                         <td><a href="https://uat-admin.citymunchapp.com">Click</a></td>
-                        <td><a href="https://uat-app.citymunchapp.com">Click</a></td>
+                        <td><a href="https://uat-web.citymunchapp.com">Click</a></td>
                         <!-- The cell here is taken by rowspan="2" above. -->
                         <td><a href="https://uat-consumer.citymunchapp.com">Click</a></td>
                         <td><a href="https://uat-api.citymunchapp.com/swagger-ui.html">Click</a></td>

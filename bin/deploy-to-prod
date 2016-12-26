@@ -1,0 +1,1 @@
+rsync -raz src/ cm-static-sites:/var/www/sites.citymunchapp.com/

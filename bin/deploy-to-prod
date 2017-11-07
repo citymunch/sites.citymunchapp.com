@@ -1,1 +1,1 @@
-rsync -raz src/ cm-static-sites:/var/www/sites.citymunchapp.com/
+aws s3 sync src/ "s3://sites.citymunchapp.com" --acl public-read --cache-control 'max-age=86400'
